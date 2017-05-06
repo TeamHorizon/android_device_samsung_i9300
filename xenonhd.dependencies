@@ -1,0 +1,17 @@
+[
+  {
+    "repository": "TH-S3ROOT/android_kernel_samsung_smdk4412",
+    "target_path": "kernel/samsung/smdk4412",
+    "branch": "cm-14.1"
+  },
+  {
+    "repository": "TH-S3ROOT/proprietary_vendor_samsung",
+    "target_path": "vendor/samsung",
+    "branch": "cm-14.1"
+  },
+  {
+    "repository": "TH-S3ROOT/android_device_samsung_i9300", -- if you need to use repos from another source
+    "target_path": "device/samsung/i9300",
+    "branch": "cm-14.1"
+  }
+]
