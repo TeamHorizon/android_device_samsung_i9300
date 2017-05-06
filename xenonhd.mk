@@ -1,3 +1,6 @@
+# Release name
+PRODUCT_RELEASE_NAME := i9300
+
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
@@ -14,11 +17,14 @@ $(call inherit-product, vendor/xenonhd/config/common_full_phone.mk)
 
 # Set those variables here to overwrite the inherited values.
 BOARD_VENDOR := 
-PRODUCT_BRAND := 
+PRODUCT_BRAND := samsung
 PRODUCT_DEVICE := i9300
 PRODUCT_NAME := xenonhd_i9300
 PRODUCT_MANUFACTURER := samsung
 PRODUCT_MODEL := GT-I9300
+
+# Device Maintainer
+PRODUCT_PROPERTY_OVERRIDES += ro.xenonhd.maintainer="BenLue"
 TARGET_VENDOR := 
 
 # Root options
