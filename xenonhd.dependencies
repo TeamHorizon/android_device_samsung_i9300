@@ -10,7 +10,7 @@
     "branch": "cm-14.1"
   },
   {
-    "repository": "TH-S3ROOT/android_device_samsung_i9300", -- if you need to use repos from another source
+    "repository": "TH-S3ROOT/android_device_samsung_i9300",
     "target_path": "device/samsung/i9300",
     "branch": "cm-14.1"
   }
