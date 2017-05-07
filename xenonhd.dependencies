@@ -1,5 +1,15 @@
 [
   {
+    "repository": "TeamHorizon/android_device_samsung_i9300",
+    "target_path": "device/samsung/i9300",
+    "branch": "n"
+  },
+  {
+    "repository": "TeamHorizon/android_device_samsung_smdk4412-common",
+    "target_path": "device/samsung/smdk4412-common",
+    "branch": "n"
+  },
+  {
     "repository": "TeamHorizon/android_kernel_samsung_smdk4412",
     "target_path": "kernel/samsung/smdk4412",
     "branch": "n"
@@ -10,13 +20,23 @@
     "branch": "n"
   },
   {
-    "repository": "TeamHorizon/android_device_samsung_i9300",
-    "target_path": "device/samsung/i9300",
+    "repository": "TeamHorizon/android_hardware_samsung",
+    "target_path": "hardware/samsung",
     "branch": "n"
   },
   {
-    "repository": "TeamHorizon/android_device_samsung_smdk4412-common",
-    "target_path": "device/samsung/smdk4412-common",
+    "repository": "TeamHorizon/android_bootable_recovery",
+    "target_path": "bootable/recovery-twrp",
+    "branch": "n"
+  },
+  {
+    "repository": "TeamHorizon/android_external_busybox",
+    "target_path": "external/busybox",
+    "branch": "n"
+  },
+  {
+    "repository": "TeamHorizon/android_packages_apps_SamsungServiceMode",
+    "target_path": "packages/apps/SamsungServiceMode",
     "branch": "n"
   }
 ]
