@@ -2,16 +2,16 @@
   {
     "repository": "TeamHorizon/android_kernel_samsung_smdk4412",
     "target_path": "kernel/samsung/smdk4412",
-    "branch": "cm-14.1"
+    "branch": "n"
   },
   {
     "repository": "TeamHorizon/proprietary_vendor_samsung",
     "target_path": "vendor/samsung",
-    "branch": "cm-14.1"
+    "branch": "n"
   },
   {
     "repository": "TeamHorizon/android_device_samsung_i9300",
     "target_path": "device/samsung/i9300",
-    "branch": "cm-14.1"
+    "branch": "n"
   }
 ]
