@@ -28,8 +28,7 @@ PRODUCT_PROPERTY_OVERRIDES += ro.xenonhd.maintainer="BenLue"
 TARGET_VENDOR := 
 
 # Root options
-ROOT_METHOD=magisk -- to compile builds with Magisk root
-ROOT_METHOD=su -- to compile builds with default su provided by LineageOS
+ROOT_METHOD=su
 # Without any of these flags the builds will be unrooted and won't include Adaway & KernelAdiutor
 
 # 3rd party apps - choose which you want to build
@@ -37,6 +36,11 @@ PRODUCT_PACKAGES += \
     Adaway \
     KernelAdiutor \
     MiXplorer
+    
+# Camera
+PRODUCT_PACKAGES += \
+  Camera2 \
+  Snap
 
 # Use the latest approved GMS identifiers unless running a signed build
 ifneq ($(SIGN_BUILD),true)
