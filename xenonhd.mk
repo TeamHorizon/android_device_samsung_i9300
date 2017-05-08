@@ -39,7 +39,6 @@ PRODUCT_PACKAGES += \
     
 # Camera
 PRODUCT_PACKAGES += \
-  Camera2 \
   Snap
 
 # Use the latest approved GMS identifiers unless running a signed build
